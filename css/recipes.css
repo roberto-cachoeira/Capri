@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.recipe-title {
+    color: maroon;
+    font-size: 24px;
+}
+.ingredient-list, .instructions {
+    margin-top: 10px;
+}
+.ingredient-list li, .instructions li {
+    margin-bottom: 5px;
+}
