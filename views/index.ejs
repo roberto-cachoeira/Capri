@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Waterfall Recipes</title>
-</head>
-    <script type="text/javascript"> //<![CDATA[
-  var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
-  document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
-//]]></script>
-<script language="JavaScript" type="text/javascript">
-  TrustLogo("https://ssl.comodoca.com/images/seals/sectigo_trust_seal_sm_2x.png", "SECEV", "none");
-</script>
-<body>
-    <nav class="container-fluid">
-        <ul>
-            <li><strong>Waterfall Recipes</strong></li>
-        </ul>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#" role="button">Contact</a></li>
-        </ul>
-    </nav>
+<%- include('header') %>
     <main class="container">
         <div class="grid">
             <section>
@@ -68,23 +43,5 @@
             </section>
         </div>
     </main>
-    <section aria-label="Subscribe example">
-        <div class="container">
-            <article>
-                <hgroup>
-                    <h2>Stay Updated</h2>
-                    <h3>Subscribe to our newsletter</h3>
-                </hgroup>
-                <form class="grid">
-                    <input type="text" id="firstname" name="firstname" placeholder="Your Name" aria-label="Your Name" required />
-                    <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
-                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
-                </form>
-            </article>
-        </div>
-    </section>
-    <footer class="container">
-        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a></small>
-    </footer>
-</body>
-</html>
+   
+<%- include('footer') %>
